@@ -1,16 +1,21 @@
 ---
+import Layout from "@layouts/Layout.astro";
+import Home from "@components/Home/Home.astro";
 
+export interface Props {
+    title?: string;
+    description?: string;
+    image?: string;
+}
+const {
+    title = "Satrimu - Aplikasi Santri",
+    description = "Satrimu - Aplikasi terpadu santri untuk pondok pesantren (Boarding School)",
+    image = "/logo.png",
+} = Astro.props;
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Layout title={title} description={description} image={image}>
+  <Home />
+
+
+</Layout>
