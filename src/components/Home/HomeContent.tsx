@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 
-
 const HomeContent = () => {
   const containerHomeVariants = {
     hidden: {
@@ -39,12 +38,13 @@ const HomeContent = () => {
         variants={containerHomeVariants}
         className="text-white flex flex-col items-center text-center"
       >
-          <h1 className="mx-2 xl:text-[82px] md:text-[70px] text-[32px] font-bold">
-            Santri <span className="text-green-600">MU</span> 
-          </h1>
-          <h2 className="text-gray-300 xl:text-5xl md:text-4xl text-xl">Aplikasi Terpadu Santri Boarding School</h2>
-        <div className="relative -z-10">
-        </div>
+        <h1 className="mx-2 xl:text-[82px] md:text-[70px] text-[32px] font-bold">
+          Santri <span className="text-green-600">MU</span>
+        </h1>
+        <h2 className="text-gray-300 xl:text-5xl md:text-4xl text-xl">
+          Aplikasi Terpadu Santri Boarding School
+        </h2>
+        <div className="relative -z-10"></div>
       </motion.div>
       <motion.div
         initial="hidden"
@@ -53,13 +53,14 @@ const HomeContent = () => {
         className="md:text-[24px] max-w-3xl  md:leading-10 leading-6"
       >
         <h3 className="text-gray-300 text-sm text-center">
-          Aplikasi Satri-MU digagas untuk memenuhi 
-          kebutuhan management dan sistem informasi pondok, baik untuk pengelola, yayasan, maupun wali santri untuk wali santri 
-          </h3>
+          Aplikasi Satri-MU digagas untuk memenuhi kebutuhan management dan
+          sistem informasi pondok, baik untuk pengelola, yayasan, maupun wali
+          santri
+        </h3>
 
-          <p className="text-green-500 text-bold text-center pt-10">
+        <p className="text-green-500 text-bold text-center pt-10">
           v.1.0.1 Beta
-          </p>
+        </p>
       </motion.div>
     </>
   );

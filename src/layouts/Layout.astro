@@ -8,6 +8,7 @@ interface Props {
 }
 const { title, description, image } = Astro.props;
 ---
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -43,7 +44,10 @@ const { title, description, image } = Astro.props;
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
     <link rel="manifest" href="/site.webmanifest" />
-    <meta name="google-site-verification" content="E3UW6oheMDWCwvCKft6i7BeqFeGtx8pxdZ_vkx7dryY" />
+    <meta
+      name="google-site-verification"
+      content="E3UW6oheMDWCwvCKft6i7BeqFeGtx8pxdZ_vkx7dryY"
+    />
   </head>
   <body class="min-h-screen bg-black">
     <slot />
