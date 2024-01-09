@@ -27,7 +27,6 @@ const post = Astro.props;
   <div class="flex items-center justify-between">
     <a href={`/blog/category/${post.data.category}`}>
       <Badge
-        radius="md"
         className="capitalize"
         transition:name={"category-" + post.slug}
       >
