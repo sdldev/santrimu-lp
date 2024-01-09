@@ -1,0 +1,29 @@
+---
+import HomeTable from "@/components/Home/HomeTable.tsx";
+---
+
+<section id="about" class="container py-8 md:py-12 lg:py-28">
+  <div
+    class="mx-auto flex max-w-[58rem] flex-col items-center justify-center gap-4 text-center"
+  >
+    <h2 class="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl">
+      Latar Belakang
+    </h2>
+    <p
+      class="max-w-full leading-normal text-muted-foreground sm:text-lg sm:leading-7"
+    >
+      Aplikasi ini di gagas berdasarkan keadaan di lapangan, yang menjadi
+      kebutuhan pengelola pondok, wali pendamping <i>(ustaz/ustazah)</i>, dan
+      wali santri.
+    </p>
+
+    <p
+      class="max-w-full leading-normal text-muted-foreground sm:text-lg sm:leading-7"
+    >
+      Kami sebagai tim pengembang, sangat mengharapkan masukan dan bantuan
+      kepada semua pihak, demi berkembangnya aplikasi ini, sehingga applikasi
+      ini bisa bermanfaat untuk kita semua
+    </p>
+  </div>
+  <HomeTable client:load />
+</section>
