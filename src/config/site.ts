@@ -5,7 +5,7 @@ export const siteConfig: SiteConfig = {
   description:
     "Aplikasi Satri-MU digagas untuk memenuhi kebutuhan management dan sistem informasi pondok, yang bisa di manfaatkan oleh pengelola, yayasan, maupun wali santri",
   url: "https://santrimu.com",
-  ogImage: "/loho.png",
+  ogImage: "/logo.png",
   links: {
     twitter: "https://twitter.com/sidolapak",
     github: "https://github.com/sdldev/santrimu",
