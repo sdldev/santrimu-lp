@@ -36,27 +36,57 @@ const problems = [
 ]
 export function HomeTable() {
     return (
+
+
         <div
-            className=" py-8 leading-normal text-muted-foreground sm:text-lg sm:leading-7"
+            className=" py-8 leading-normal  sm:text-lg sm:leading-7"
         >
-            <Table>
-                <TableCaption className="test-sm text-red-800">*desclaimer: data tidak mewakili data manapun dan dari pihak manapun. data hanya berupa contoh</TableCaption>
-                <TableHeader>
-                    <TableRow>
-                        <TableHead>Problem</TableHead>
-                        <TableHead>Solusi</TableHead>
-                    </TableRow>
-                </TableHeader>
-                <TableBody>
-                    {problems.map((problem) => (
-                        <TableRow key={problem.invoice}>
-                            <TableCell>{problem.invoice}</TableCell>
-                            <TableCell>{problem.paymentStatus}</TableCell>
+            <h2 className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl">
+                Latar Belakang
+            </h2>
+            <p
+                className="max-w-full leading-normal text-muted-foreground sm:text-lg sm:leading-7"
+            >
+                Aplikasi ini di gagas berdasarkan keadaan di lapangan, yang menjadi
+                kebutuhan pengelola pondok, wali pendamping <i>(ustaz/ustazah)</i>, dan
+                wali santri.
+            </p>
+
+            <p
+                className="max-w-full leading-normal text-muted-foreground sm:text-lg sm:leading-7"
+            >
+                Kami sebagai tim pengembang, sangat mengharapkan masukan dan bantuan
+                kepada semua pihak, demi berkembangnya aplikasi ini, sehingga applikasi
+                ini bisa bermanfaat untuk kita semua
+            </p>
+
+
+            <div
+                className="py-8 leading-normal text-muted-foreground sm:text-lg sm:leading-7"
+            >
+                <Table>
+                    <TableCaption className="text-sm text-red-800">*desclaimer: data tidak mewakili data manapun dan dari pihak manapun. data hanya berupa contoh</TableCaption>
+                    <TableHeader>
+                        <TableRow className="text-xl">
+                            <TableHead >Problem</TableHead>
+                            <TableHead>Solusi</TableHead>
                         </TableRow>
-                    ))}
-                </TableBody>
-            </Table>
+                    </TableHeader>
+                    <TableBody>
+                        {problems.map((problem) => (
+                            <TableRow key={problem.invoice}>
+                                <TableCell>{problem.invoice}</TableCell>
+                                <TableCell>{problem.paymentStatus}</TableCell>
+                            </TableRow>
+                        ))}
+                    </TableBody>
+                </Table>
+            </div>
+
         </div>
+
+
+
     )
 }
 export default HomeTable;
