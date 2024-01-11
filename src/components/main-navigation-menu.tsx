@@ -36,8 +36,7 @@ export function MainNavigationMenu() {
                   <Smile className="size-8" />
                   <div className="mb-2 mt-3 text-lg font-medium">Santri-MU</div>
                   <p className="text-sm leading-tight text-muted-foreground">
-                    Modern application with differents sections examples built
-                    using shadcn/ui.
+                    Aplikasi Sederhana untuk membantu aktifitas ponpes / Bording School
                   </p>
                 </a>
               </li>

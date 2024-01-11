@@ -7,17 +7,17 @@ export const navMenuConfig: NavMenuConfig = {
       items: [
         {
           title: "Uang Saku Santri",
-          href: "/#",
-          description: "Informasi uang saku santri. saldo, penggunaan, dan deposit.",
+          href: "/aplikasi-uang-saku-santri",
+          description: "Aplikasi uang saku santri. Pencatatan dan management uang saku santri",
         },
         {
           title: "Setor Hafalan Santri",
-          href: "#",
+          href: "/aplikasi-setor-hafalan-santri",
           description: "Informasi hafalan santri. Juz dan ayat",
         },
         {
-          title: "Aktifitas Santri",
-          href: "#",
+          title: "Koperasi Ponpes",
+          href: "/aplikasi-koperasi-ponpes",
           description: "Informasi kegiatan dan aktifitas santri.",
         },
       ],
@@ -70,6 +70,10 @@ export const navMenuConfig: NavMenuConfig = {
     {
       title: "About",
       href: "/about",
+    },
+    {
+      title: "Donasi",
+      href: "/donasi",
     },
     {
       title: "Kontak",
