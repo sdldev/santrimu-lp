@@ -94,7 +94,7 @@ const HomeFeature = () => {
                                     stroke="currentColor"
                                     stroke-linecap="round"
                                     stroke-linejoin="round"
-                                    stroke-width="16"></line><line
+                                    stroke-strokeWidth="16"></line><line
                                         x1="192"
                                         y1="40"
                                         x2="40"
@@ -103,7 +103,7 @@ const HomeFeature = () => {
                                         stroke="currentColor"
                                         stroke-linecap="round"
                                         stroke-linejoin="round"
-                                        stroke-width="16"></line></svg
+                                        strokeWidth="16"></line></svg
                                 >
                                 <div className="space-y-2">
                                     <h3 className="font-bold">Monitor Santri</h3>
@@ -129,7 +129,7 @@ const HomeFeature = () => {
                                     stroke="currentColor"
                                     stroke-linecap="round"
                                     stroke-linejoin="round"
-                                    stroke-width="16"></line><line
+                                    strokeWidth="16"></line><line
                                         x1="192"
                                         y1="40"
                                         x2="40"
@@ -138,7 +138,7 @@ const HomeFeature = () => {
                                         stroke="currentColor"
                                         stroke-linecap="round"
                                         stroke-linejoin="round"
-                                        stroke-width="16"></line></svg
+                                        strokeWidth="16"></line></svg
                                 >
                                 <div className="space-y-2">
                                     <h3 className="font-bold">Santri Berbagi</h3>
@@ -165,7 +165,7 @@ const HomeFeature = () => {
                                     stroke="currentColor"
                                     stroke-linecap="round"
                                     stroke-linejoin="round"
-                                    stroke-width="16"></line><line
+                                    strokeWidth="16"></line><line
                                         x1="192"
                                         y1="40"
                                         x2="40"
@@ -174,7 +174,7 @@ const HomeFeature = () => {
                                         stroke="currentColor"
                                         stroke-linecap="round"
                                         stroke-linejoin="round"
-                                        stroke-width="16"></line></svg
+                                        strokeWidth="16"></line></svg
                                 >
                                 <div className="space-y-2">
                                     <h3 className="font-bold">Sillaturahmi</h3>
