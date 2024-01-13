@@ -1,16 +1,13 @@
-import { motion, AnimatePresence } from 'framer-motion'
+import { FadeIn } from '@/components/FadeIn'
+import { Container } from '@/components/Container'
 
 const HomeHero = () => {
   return (
-    <AnimatePresence>
-      <section id="home" className="container py-8">
-        <div
+    <Container className="pb-16 pt-20 text-center lg:pt-32">
+        <FadeIn
           className="container flex max-w-[64rem] h-screen flex-col items-center gap-5 text-center"
         >
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.3, delay: 0.2 }}
+          <div
             className="flex xl:justify-center">
             <img
               src="/images/background-santrimu.webp"
@@ -21,11 +18,8 @@ const HomeHero = () => {
               height="300"
               className="mt-1 max-w-full"
             />
-          </motion.div>
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.3, delay: 0.5 }}
+          </div>
+          <div
             className="flex flex-col items-center text-center"
           >
             <h1
@@ -39,12 +33,9 @@ const HomeHero = () => {
               Aplikasi Terpadu Santri Boarding School
             </h2>
             <div className="relative -z-10"></div>
-          </motion.div>
+          </div>
 
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.3, delay: 0.7 }}
+          <div
             className="flex flex-col items-center text-center leading-normal text-muted-foreground sm:text-xl sm:leading-8 text-balance"
           >
             Aplikasi Satri-MU digagas untuk memenuhi kebutuhan management dan sistem
@@ -54,11 +45,9 @@ const HomeHero = () => {
             <p className="text-green-500 text-bold text-center pt-10">
               v.1.0.1 Beta
             </p>
-          </motion.div>
-
-        </div>
-      </section>
-    </AnimatePresence>
+          </div>
+        </FadeIn>
+    </Container>
   );
 };
 export default HomeHero;

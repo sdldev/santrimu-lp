@@ -2,25 +2,15 @@ import { motion, AnimatePresence } from 'framer-motion'
 
 const HomeFeature = () => {
     return (
-        <AnimatePresence>
             <section id="feature" className="container py-8">
                 <div
                     className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center"
                 >
-                    <motion.h2
-                        initial={{ opacity: 0, y: 30 }}
-                        whileInView={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.3, delay: 0.2 }}
-                        className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl">
+                    <h2 className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl">
                         Fitur
-                    </motion.h2>
+                    </h2>
                 </div>
-                <AnimatePresence>
-                    <motion.div
-                        initial={{ opacity: 0, y: 30 }}
-                        whileInView={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.3, delay: 0.7 }}
-                        className="mx-auto grid items-center text-center gap-4 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3"
+                    <div className="mx-auto grid items-center text-center gap-4 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3"
                     >
                         <div className="relative overflow-hidden rounded-lg border bg-background p-2">
                             <div className="flex h-[180px] flex-col rounded-md p-5 items-center text-center">
@@ -186,8 +176,7 @@ const HomeFeature = () => {
                                 </div>
                             </div>
                         </div>
-                    </motion.div>
-                </AnimatePresence>
+                    </div>
                 <div className="mx-auto text-center md:max-w-[58rem]">
                     <p
                         className="leading-normal text-muted-foreground sm:text-lg sm:leading-7 balance-text"
@@ -197,7 +186,6 @@ const HomeFeature = () => {
                     </p>
                 </div>
             </section>
-        </AnimatePresence>
     );
 };
 export default HomeFeature;
