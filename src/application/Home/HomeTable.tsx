@@ -7,7 +7,8 @@ import {
     TableHeader,
     TableRow,
 } from "@/components/ui/table"
-import { FadeIn, FadeInStagger } from '@/components/FadeIn'
+import { FadeIn } from '@/components/FadeIn'
+import { Container } from '@/components/Container'
 
 const problems = [
     {
@@ -37,7 +38,7 @@ const problems = [
 ]
 export function HomeTable() {
     return (
-        <section id="about" className="container py-8">
+        <Container className="mt-8 py-32 sm:mt-8 md:py-32">
             <FadeIn
                 className=" py-8 leading-normal  sm:text-lg sm:leading-7"
             >
@@ -83,7 +84,7 @@ export function HomeTable() {
                     </Table>
                 </div>
             </FadeIn>
-        </section>
+        </Container>
     )
 }
 export default HomeTable;

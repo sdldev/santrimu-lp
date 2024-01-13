@@ -2,7 +2,7 @@
 import { siteConfig } from "@/config/site";
 import { cn } from "@/lib/utils";
 import { ThemeToggle } from "@/components/theme-toggle";
-import { Smile } from "lucide-react"
+import { MoonStar } from "lucide-react"
 
 type Props = {
   className?: string;
@@ -18,19 +18,16 @@ const { className } = Astro.props;
     <div
       class="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0"
     >
-      <a href="/" aria-label="Santri-MU">
-        <Smile name="stars-outline" className="size-8" /></a
-      >
-
       <p class="text-center text-sm leading-loose md:text-left balance-text">
         Copyright{" "}
         <a
           href={siteConfig.url}
-          class="font-medium underline underline-offset-4"
+          aria-label="Santri-MU"
+          class="font-medium underline-offset-4"
         >
         {siteConfig.name}
         </a>
-         . | Build by: {" "}
+         Build by: {" "}
          {" "}
         <a
           href="https://indatechno.com"

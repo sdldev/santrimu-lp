@@ -3,7 +3,7 @@ import { Container } from '@/components/Container'
 
 const HomeHero = () => {
   return (
-    <Container className="pb-16 pt-20 text-center lg:pt-32">
+    <Container className="pt-20 text-center">
         <FadeIn
           className="container flex max-w-[64rem] h-screen flex-col items-center gap-5 text-center"
         >
@@ -26,11 +26,11 @@ const HomeHero = () => {
               className="font-heading text-4xl font-bold sm:text-5xl md:text-6xl lg:text-7xl !leading-[1.1] text-balance"
             >
               <span className="text-gradient_indigo-purple">
-                Santri <span className="font-sans font-bold">+</span>MU
+                Santri MU
               </span>
             </h1>
             <h2 className="max-w-[42rem] leading-normal sm:text-xl sm:leading-8 text-2xl">
-              Aplikasi Terpadu Santri Boarding School
+              Berbagi dalam kebaikan
             </h2>
             <div className="relative -z-10"></div>
           </div>
