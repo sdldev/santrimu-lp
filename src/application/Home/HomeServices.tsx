@@ -25,13 +25,13 @@ const HomeServices = () => {
       </FadeIn>
 
 
-      <div className="lg:flex lg:items-center lg:justify-end">
-        <div className="flex justify-center lg:w-1/2 lg:justify-end">
-          <FadeIn className="w-[33.75rem] flex-none">
+      <div className="">
+        <div className="w-max-auto px-3 py-3">
+          <FadeIn className="flex-none">
             <img
               src="/images/share.webp"
-              className="rounded-3xl "
               alt='services santrimu'
+              className="w-max-auto md:h-max-300 xl:500"
             />
           </FadeIn>
         </div>
