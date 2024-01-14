@@ -25,8 +25,8 @@ const HomeServices = () => {
       </FadeIn>
 
 
-      <div className="">
-        <div className="w-max-auto px-3 py-3">
+      <div className="lg:flex lg:items-center lg:justify-end">
+        <div className="">
           <FadeIn className="flex-none">
             <img
               src="/images/share.webp"
@@ -35,7 +35,7 @@ const HomeServices = () => {
             />
           </FadeIn>
         </div>
-        <List className="mt-8 lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4">
+        <List className="mt-8 lg:mt-0 lg:w-1/2 lg:min-w-full lg:pl-4">
           <ListItem title="Networking">
             <p>
               Jaringan Lokal dan Intranet yang bisa memenuhi kebutuhan lembaga.
