@@ -106,7 +106,7 @@
 }
 
 .text-gradient_indigo-purple {
-  background: linear-gradient(90deg, #0b8b50 0%, rgba(235, 200, 2, 0.993) 100%);
+  background: linear-gradient(90deg, #00302C 0%, rgba(235, 200, 2, 0.993) 100%);
   /* background: linear-gradient(83.21deg,#3245ff 0%,#bc52ee 100%); */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

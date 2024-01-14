@@ -13,7 +13,7 @@ const clients = [
 
 const HomeFeature = () => {
   return (
-    <div className="mt-8 rounded-4xl bg-green-900 dark:bg-neutral-800 py-32 sm:mt-8 md:py-32">
+    <div className="mt-8 rounded-4xl bg-teal-900 dark:bg-neutral-800 py-32 sm:mt-8 md:py-32">
       <Container >
         <FadeIn className="flex items-center gap-x-8">
           <h2 className="text-center font-display text-4xl font-semibold tracking-wider text-white sm:text-left">
