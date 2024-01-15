@@ -3,19 +3,19 @@ import { Container } from '@/components/Container'
 
 const HomeHero = () => {
   return (
-    <Container className="pt-20 text-center">
+    <Container className="py-8 text-center">
         <FadeIn
           className="container flex max-w-[64rem] h-screen flex-col items-center gap-5 text-center"
         >
           <div
             className="flex xl:justify-center">
             <img
-              src="/images/background-santrimu.webp"
+              src="/images/santrimu.png"
               decoding="async"
               loading="lazy"
               alt="Santri-MU"
               width="300"
-              height="300"
+              height="250"
               className="mt-1 max-w-full"
             />
           </div>
