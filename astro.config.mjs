@@ -2,9 +2,9 @@ import { defineConfig } from 'astro/config';
 import react from "@astrojs/react";
 import tailwind from "@astrojs/tailwind";
 import sitemap from "@astrojs/sitemap";
-import cloudflare from "@astrojs/cloudflare";
-
 import mdx from "@astrojs/mdx";
+
+import node from "@astrojs/node";
 
 // https://astro.build/config
 export default defineConfig({
@@ -12,6 +12,8 @@ export default defineConfig({
   integrations: [react(), tailwind({
     applyBaseStyles: false
   }), sitemap(), mdx()],
-  output: "hybrid",
-  adapter: cloudflare()
+  output: "static",
+  adapter: node({
+    mode: "standalone"
+  })
 });
